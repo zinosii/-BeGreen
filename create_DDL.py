@@ -5,11 +5,11 @@ from tqdm import tqdm
 
 try:
     conn = mysql.connector.connect(
-        user='root',
+        user='zinosii',
         password='1234',
-        host='localhost',
-        port=3306,
-        database='begreen',
+        host='svc.sel5.cloudtype.app',
+        port=30800,
+        database='FitDaily',
     )
 except mysql.connector.Error as e:
     print(f"Error connecting to MariaDB Platform: {e}")

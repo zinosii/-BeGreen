@@ -307,14 +307,14 @@ for i in range(1, 11):
     users_data.append([user_id])
 
 # 데이터베이스 연결 정보
-host = 'localhost'
-database = 'begreen'
-user = 'root'
+host = 'svc.sel5.cloudtype.app'
+database = 'FitDaily'
+user = 'zinosii'
 password = '1234'
 tableUsers = 'users'
 tableCodeData = 'code_data'
 tableUsersData = 'users_data'
-port = 3306
+port = 30800
 sql_file_path = './DDL/tables.sql'
 
 # 테이블 구조 확인 함수 호출
