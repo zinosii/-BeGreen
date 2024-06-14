@@ -2802,8 +2802,10 @@
                 insertUserCalendar(week_num, Newdate)
 
                 canClickPrevNext = 1
-                
-                updateDiary(week_num)
+
+                setTimeout(function() {
+                    updateDiary(week_num)
+                }, 300)
 
                 
                 $('#ca_detail_wr').fadeOut(400, function(){
